@@ -1,0 +1,18 @@
+<button id="fetch-data">Fetch Data</button>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $("#fetch-data").click(function() {
+      $.ajax({
+        url: C:\Users\ton6q\Desktop\game_crash.py,
+        type: "GET",
+        success: function(response) {
+          // Do something with the response, such as displaying it on the page
+        },
+        error: function(xhr) {
+          // Handle any errors that occur
+        }
+      });
+    });
+  });
+</script>
